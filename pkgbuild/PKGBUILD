@@ -1,0 +1,13 @@
+# Maintainer: Barnabe di Kartola <barnabedikartola@gmail.com>
+
+pkgname=biglinux-vaapi
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL')
+depends=('libva-intel-driver' 'libva-mesa-driver' 'libva-vdpau-driver' 'intel-media-driver' 'lib32-libva-intel-driver' 'lib32-libva-mesa-driver' 'lib32-libva-vdpau-driver')
+pkgdesc="Meta package to simplify BigLinux updates"
+
+package() {
+  true
+}
